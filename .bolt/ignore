@@ -1,1 +1,78 @@
-test
+# Database Scripts
+docs/db-scripts/*
+
+# Public Files
+# public/*
+
+# COMPONENTS
+# AI
+src/components/ai/AIChat.tsx
+# Analytics
+src/components/analytics/badges/*
+src/components/analytics/goals/*
+src/components/analytics/leaderboard/*
+src/components/analytics/metrics/*
+# Auth
+# src/components/auth/AuthGuard.tsx
+# Campaigns
+src/components/campaigns/*
+# Customers
+src/components/customers/AddressFields.tsx
+src/components/customers/CustomerForm.tsx
+src/components/customers/LineItems.tsx
+src/components/customers/QuickView.tsx
+src/components/customers/Tabs.tsx
+# Home
+src/components/home/*
+# Import
+src/components/import/*
+# Layout
+# src/components/layout/header/*
+src/components/layout/Layout.tsx
+src/components/layout/Navbar.tsx
+# Leads
+src/components/leads/InteractionForm.tsx
+src/components/leads/KanbanView.tsx
+src/components/leads/LeadScore.tsx
+src/components/leads/ListView.tsx
+src/components/leads/PostConversionDialog.tsx
+src/components/leads/QuickView.tsx
+# Messages
+src/components/messages/*
+# Tasks
+src/components/tasks/TaskCard.tsx
+src/components/tasks/TaskColumn.tsx
+src/components/tasks/TaskDialog.tsx
+src/components/tasks/TaskForm.tsx
+# UI
+src/components/ui/*
+
+# Hooks
+src/hooks/useAuth.ts
+
+# Lib
+src/lib/ai/*
+src/lib/analytics/*
+src/lib/constants.ts
+src/lib/LeadScoring.ts
+src/lib/profile.ts
+src/lib/supabase.ts
+src/lib/utils.ts
+
+# Pages
+src/pages/Analytics.tsx
+# src/pages/Auth.tsx
+src/pages/Campaigns.tsx
+src/pages/Customers.tsx
+src/pages/Help.tsx
+src/pages/Home.tsx
+src/pages/Inegrations.tsx
+# src/pages/Landing.tsx
+src/pages/Leads.tsx
+src/pages/Messages.tsx
+src/pages/Profile.tsx
+src/pages/Tasks.tsx
+
+# Types
+src/types/analytics.ts
+# src/types/supabase.ts
