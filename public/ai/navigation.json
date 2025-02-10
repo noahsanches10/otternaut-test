@@ -1,0 +1,38 @@
+{
+  "mainNav": [
+    {
+      "title": "Home",
+      "path": "/"
+    },
+    {
+      "title": "Leads",
+      "path": "/leads"
+    },
+    {
+      "title": "Customers",
+      "path": "/customers"
+    },
+    {
+      "title": "Analytics",
+      "path": "/analytics"
+    },
+    {
+      "title": "Tasks",
+      "path": "/tasks"
+    }
+  ],
+  "headerNav": [
+    {
+      "title": "Help Center",
+      "path": "/help",
+      "description": "Access FAQs, roadmap, and support options",
+      "icon": "HelpCircle"
+    },
+    {
+      "title": "Profile Settings",
+      "path": "/profile",
+      "description": "Manage business info, custom fields, and lead scoring parameters",
+      "icon": "Settings"
+    }
+  ]
+}

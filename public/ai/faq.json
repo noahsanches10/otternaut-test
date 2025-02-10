@@ -1,0 +1,34 @@
+[
+  {
+    "question": "How do I get started with Otternaut?",
+    "answer": "Getting started is easy! First, set up your business profile in the Profile Settings. Then, customize your lead sources, stages, and service types. You can start adding leads and managing your sales pipeline right away."
+  },
+  {
+    "question": "How does lead scoring work?",
+    "answer": "Lead scoring in Otternaut is based on multiple factors: projected value, engagement level, timeline, and qualification stage. You can customize these parameters in your Profile Settings to match your business needs."
+  },
+  {
+    "question": "Can I import or export leads and customers?",
+    "answer": "Yes! You can import your existing data using CSV or Excel files via the Import wizard on the Settings Icon. To export, select any number of leads or customers on the list view and hit the download icon."
+  },
+  {
+    "question": "What's the difference between leads and customers?",
+    "answer": "Leads are potential clients in your sales pipeline, while customers are converted leads who have purchased your services. You can convert a lead to a customer directly from the lead details page."
+  },
+  {
+    "question": "How do I track my sales performance?",
+    "answer": "The Analytics page provides comprehensive insights into your sales performance, including conversion rates, revenue metrics, and pipeline value. You can also set custom goals to track your progress."
+  },
+  {
+    "question": "How do the different revenue metrics work?",
+    "answer": "Total Revenue is calculated as the sum of all Line Item amounts within a specified period. Total Recurring Revenue includes only the cumulative Sale Values from customers with recurring transactions, excluding those marked as One-Time frequency, within the same timeframe. Best Month's Total Revenue represents the highest total of Sale Values reported in any single month."
+},
+  {
+    "question": "Can I customize the lead stages?",
+    "answer": "Yes! You can customize lead stages in your Profile Settings. Add, remove, or modify stages to match your sales process. You can also set custom scoring weights for each stage."
+  },
+  {
+    "question": "How can I get a cheaper rate?",
+    "answer": "Sign up for multiple months at a time can save you money! Contact support@otternautcrm.com for questions or to adjust your plan."
+  }
+]

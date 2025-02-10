@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Automatic Syncing of Edits",
+    "description": "Changes that affect the score of the lead often aren't immediately reflected. Changes to the activity tabs for leads and customers sometimes aren't immediatey reflected.",
+    "status": "Investigating",
+    "reportedDate": "2025-01-25",
+    "affectedVersion": "1.0.0",
+    "workaround": "Visit a different tab in the application and then return to see the updated changes."
+  },
+  {
+    "title": "AI Assistant Errors",
+    "description": "Otterbot is still in beta testing. It does not currently reflect all your data and improvements are being made to improve its training and knowledge of the software.",
+    "status": "In-Progress",
+    "reportedDate": "2025-01-25",
+    "affectedVersion": "1.0.0",
+    "workaround": "Try to give more clear direction or data to the context of your request. Reach out to support@otternautcrm.com for additional questions or support."
+  },
+  {
+    "title": "Kanban Drag and Drop Bug",
+    "description": "Occasionally leads or tasks that are moved into different columns are shuffled to a different position than where they were originally placed.",
+    "status": "Investigating",
+    "reportedDate": "2025-01-25",
+    "affectedVersion": "1.0.0",
+    "workaround": "Scroll or toggle the column to find the desired lead or task."
+  }
+]

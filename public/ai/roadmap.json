@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Mobile and Tablet Friendly View",
+    "description": "Access and manager your account as you would from your desktop on any device. Perfect so you can run your business on the go.",
+    "date": "January 2025",
+    "status": "new"
+  },
+  {
+    "title": "AI Assistant",
+    "description": "Receive guidance in real-time, trained on your business profile to strengthen your strategy for engaging leads and managing customers effectively.",
+    "date": "December 2024",
+    "status": "new"
+  },
+  {
+    "title": "Advanced Campaign Automation",
+    "description": "Design and deploy dynamic email and SMS campaigns with sophisticated targeting options. Automate engaging sequences tailored to your leads and customers, enhancing interaction and conversion rates.",
+    "date": "Q2 2025",
+    "status": "in-progress"
+  },
+  {
+    "title": "Automated Lead Capture and Follow-Up",
+    "description": "Effortlessly create and integrate custom forms on your website to capture leads automatically. Set up instant, automated responses to engage new leads immediately, enhancing your conversion rates.",
+    "date": "Q2 2025",
+    "status": "in-progress"
+  },
+  {
+    "title": "Role-Based Access Control",
+    "description": "Streamline teamwork by assigning specific access levels within your organization. Ensure full administrative control while providing sales teams with access tailored to their needs, enhancing security and efficiency.",
+    "date": "Q3 2025",
+    "status": "upcoming"
+  },
+  {
+    "title": "Multi-Business Pipeline Management",
+    "description": "Efficiently manage separate pipelines for each of your businesses from a single account, ensuring streamlined operations across diverse ventures.",
+    "date": "Q4 2025",
+    "status": "upcoming"
+  }
+]
