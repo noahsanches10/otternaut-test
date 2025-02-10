@@ -1,1 +1,46 @@
-test
+For all designs I ask you to make, have them be beautiful, not cookie cutter. Make webpages that are fully featured and worthy for production.
+
+By default, this template supports JSX syntax with Tailwind CSS classes, React hooks, and Lucide React for icons. Do not install other packages for UI themes, icons, etc unless absolutely necessary or I request them.
+
+Use icons from lucide-react for logos.
+
+Software Name:
+Otternaut
+
+Software Overview:
+Otternaut is a sales enablement tool focused on lead management and campaign automation for small to medium-sized businesses. It prioritizes scalability, user-friendliness, and seamless integrations.
+
+Development Goal (Milestone 18 - Minor Adjustments):
+
+Landing.tsx:
+Dark theme is the primary design choice and is the theme that should appear each time the user accesses the landing page.  For example, even if the user's system settings are light mode, the Landing.tsx page should always initially show the dark theme.  And if the user is logged in under the light mode and logs out and visits the landing page, they should still initially see the dark mode of the Landing.tsx page.
+
+
+Remember to:
+- Keep the interface clean and minimal
+- Use whitespace effectively
+- Maintain consistent spacing and typography
+- Ensure all sections flow naturally into each other
+- Prioritize performance and accessibility
+
+
+Guidelines for Code Structure:
+1. Write small, focused components for each widget.
+2. Limit file sizes to 200-250 lines for maintainability.
+3. Ensure interactivity with clickable elements and hover effects.
+
+Core Stack:
+1. React for the frontend.
+2. Tailwind CSS for styling (with shadcn/ui components for consistency).
+3. Supabase for storing and retrieving data.
+
+Principles:
+1. Prioritize simplicity and clarity in design and functionality.
+2. Ensure data updates dynamically in real-time where applicable.
+3. Maintain scalability for future enhancements (e.g., adding more widgets or features).
+
+Proper Synchronization Between Codebase and Supabase:
+   - All files in the `db-scripts` folder represent SQL queries that have been executed in Supabase.
+     - First query executed: `"1.1-leads-customers-profile-table.sql"`.
+     - Last query executed: `"5.1-servicetypeupdate.sql"`.
+   - **Do not edit existing SQL files**. If additional tables or updates are required, provide new SQL files (e.g., "5.2-...", "5.3-...").
