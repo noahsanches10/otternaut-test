@@ -1,0 +1,184 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 240 10% 3.9%;
+    --card: 0 0% 100%;
+    --card-foreground: 240 10% 3.9%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 240 10% 3.9%;
+    --primary: 240 5.9% 10%;
+    --primary-foreground: 0 0% 98%;
+    --secondary: 240 4.8% 95.9%;
+    --secondary-foreground: 240 5.9% 10%;
+    --muted: 240 4.8% 95.9%;
+    --muted-foreground: 240 3.8% 46.1%;
+    --accent: 240 4.8% 95.9%;
+    --accent-foreground: 240 5.9% 10%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 240 5.9% 90%;
+    --input: 240 5.9% 90%;
+    --ring: 240 5.9% 10%;
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    --background: 240 10% 3.9%;
+    --foreground: 0 0% 98%;
+    --card: 240 10% 3.9%;
+    --card-foreground: 0 0% 98%;
+    --popover: 240 10% 3.9%;
+    --popover-foreground: 0 0% 98%;
+    --primary: 0 0% 98%;
+    --primary-foreground: 240 5.9% 10%;
+    --secondary: 240 3.7% 15.9%;
+    --secondary-foreground: 0 0% 98%;
+    --muted: 240 3.7% 15.9%;
+    --muted-foreground: 240 5% 64.9%;
+    --accent: 240 3.7% 15.9%;
+    --accent-foreground: 0 0% 98%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 240 3.7% 15.9%;
+    --input: 240 3.7% 15.9%;
+    --ring: 240 4.9% 83.9%;
+  }
+
+  .prose {
+    max-width: none;
+  }
+  
+  .prose p {
+    margin: 0;
+  }
+
+  @layer base {
+    * {
+      @apply border-border;
+    }
+    
+    .dark label {
+      @apply text-foreground;
+    }
+    
+    .dark select,
+    .dark input,
+    .dark textarea {
+      @apply focus:ring-foreground;
+    }
+  }
+}
+
+.size-full {
+  width: 100%;
+  height: 100%;
+}
+
+@keyframes moveGradient {
+  50% {
+    background-position: 100% 50%;
+  }
+}
+
+.gradient-border {
+  position: relative;
+  border-radius: 0.5rem;
+  display: block;
+  padding: 2px;
+  background: linear-gradient(
+    60deg,
+    hsl(224, 85%, 66%),
+    hsl(269, 85%, 66%),
+    hsl(314, 85%, 66%),
+    hsl(359, 85%, 66%),
+    hsl(44, 85%, 66%),
+    hsl(89, 85%, 66%),
+    hsl(134, 85%, 66%),
+    hsl(179, 85%, 66%)
+  );
+  background-size: 300% 300%;
+  background-position: 0 50%;
+  animation: moveGradient 4s alternate infinite;
+}
+
+.particles-container {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  overflow: hidden;
+  min-height: 100vh;
+  pointer-events: none;
+}
+
+.gradient-border img {
+  display: block;
+  width: 100%;
+  height: auto;
+  background: hsl(var(--background));
+}
+
+@keyframes toast-in {
+  0% {
+    opacity: 0;
+    transform: translateY(-100%) scale(0.7);
+  }
+  70% {
+    transform: translateY(10%) scale(1.05);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-5px);
+  }
+}
+
+@keyframes bounce {
+  0% {
+    transform: scale(0);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes spin-once {
+  from {
+    transform: rotate(-90deg) scale(0);
+  }
+  to {
+    transform: rotate(0) scale(1);
+  }
+}
+
+@keyframes shake {
+  0%, 100% { transform: translateX(0); }
+  20% { transform: translateX(-2px); }
+  40% { transform: translateX(2px); }
+  60% { transform: translateX(-2px); }
+  80% { transform: translateX(2px); }
+}
+
+@keyframes border-beam {
+  100% {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
+
+.prose {
+  max-width: none;
+}
