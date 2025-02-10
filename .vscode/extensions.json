@@ -1,1 +1,3 @@
-test
+{
+  "recommendations": ["denoland.vscode-deno"]
+}
