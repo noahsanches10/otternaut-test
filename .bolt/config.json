@@ -1,1 +1,3 @@
-test
+{
+  "template": "bolt-vite-react-ts"
+}
